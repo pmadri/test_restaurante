@@ -85,6 +85,14 @@ main{
 
 }
 
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #ff9800;
+    color: #fff;
+    font-weight: bold;
+}
+
 /* Estilo de responsividade */
 @media (min-width: 768px){
     main{

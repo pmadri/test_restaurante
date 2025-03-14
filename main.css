@@ -7,7 +7,7 @@ body{
 
 /* Bloco de estilização do cabeçalho */
 header{
-    background-color: antiquewhite;
+    background-color: #767d66;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
@@ -38,7 +38,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: #ffeb3b;
+    background-color: #da983c;
 }
 
 main{
@@ -76,13 +76,40 @@ main{
 }
 
 .adicionar{
-    background-color: #ffca28;
+    background-color: #da983c;
     color: #333;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     cursor: pointer;
 
+}
+
+#pedido{
+    background-color: #e0e0e0;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#lista.pedido{
+    list-style: none;
+    padding: 0;
+}
+
+#contato{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#redes-sociais a{
+    display: inline-block;
+    background-color: #ffca28;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0.5rem;
+    
 }
 
 footer{

@@ -1,4 +1,4 @@
-// Simulção de adição de produtos à cesta do site
+// Simulação de adição de produtos à cesta do site
 
 // Selecione todos os botões que tem a classe 'adicionar' (botões de adicionar produtos ao pedido)
 const botoesAdicionar = document.querySelectorAll('.adicionar');
@@ -11,27 +11,26 @@ let total = 0;
 // Percorre todos os botões 'Adicionar' e adicione um evento de clique a cada um deles
 botoesAdicionar.forEach(botao => {
     botao.addEventListener('click', () => {
-             // Obtém o elemento pai do botão
+        // Obtém o elemento pai do botão
         const produto = botao.parentElement;
 
-        // Obtém o nome do produto a paritr do texto dentro da tag <h3>
-        const nome = produto.querySelector('h3').textContent
+        // Obtém o nome do produto a partir do texto dentro da tag <h3>
+        const nome = produto.querySelector('h3').textContent;
 
         // Obtém o preço do produto removendo o texto e convertendo para número decimal
-        const preco = parseFloat(produto.querySelector('.preco').textContent.replace('R$', ''));
+        const preco = parseFloat(produto.querySelector('.preco').textContent.replace('R$', '').trim());
 
-        //Cria novo item de lista <li> para adicionar o produto ao pedido
+        // Cria novo item de lista <li> para adicionar o produto ao pedido
         const itemPedido = document.createElement('li');
-        //Formata o preço com duas casas decimais
-        itemPedido.textContent = '${nome} - R$ $(preco.toFixed(2))';
-        
+        // Formata o preço com duas casas decimais
+        itemPedido.textContent = `${nome} - R$ ${preco.toFixed(2)}`;
 
-        // Adiciona item criado a lista de pedidos
+        // Adiciona item criado à lista de pedidos
         listaPedido.appendChild(itemPedido);
 
-        //Atualiza o total da compra somando o preço dos novos itens
+        // Atualiza o total da compra somando o preço dos novos itens
         total += preco;
-        totalElemento.textContent = 'Total: R$ $(total.toFixed(2))';
+        totalElemento.textContent = `Total: R$ ${total.toFixed(2)}`;
     });
 });
 
@@ -39,8 +38,12 @@ botoesAdicionar.forEach(botao => {
 // Seleciona o botão "Finalizar Pedido"
 const botaoFinalizarPedido = document.getElementById('finalizar-pedido');
 
-//Adiciona evento de clique no botão Finalizar Pedido
-
+// Adiciona evento de clique no botão Finalizar Pedido
 botaoFinalizarPedido.addEventListener('click', () => {
-    alert("Peiddo realizado com sucesso (Simulação)");
+    alert("Pedido realizado com sucesso (Simulação) - " + `Total: R$ ${total.toFixed(2)}`);
+    // Para limpar o campo após a mensagem de pedido realizado
+    listaPedido.innerHTML = '';
+    total = 0;
+    totalElemento.textContent = `Total: R$ ${total.toFixed(2)}`;
 });
+

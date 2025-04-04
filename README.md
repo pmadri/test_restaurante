@@ -1,2 +1,5 @@
-# Restaurante_Vo
-Case de um cardápio online de um restaurante
+# Brasil a Mesa
+
+## Descrição
+
+Um trabalho simples de faculdade referente a um site de restaurante.

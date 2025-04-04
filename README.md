@@ -9,7 +9,7 @@
 :grey_question: [Layout](#layout)
 
 ## Descrição
-Um trabalho simples de faculdade referente a um site de restaurante, simulando algumas funcionalidades comuns.
+Um trabalho simples de faculdade referente a um cardápio online de restaurante, simulando algumas funcionalidades comuns.
 
 ## Funcionalidades
 Simulação de links para outras seções do site;

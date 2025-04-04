@@ -1,5 +1,5 @@
 # Brasil a Mesa
 
-### Descrição
+## Descrição
 
 Um trabalho simples de faculdade referente a um site de restaurante.

@@ -20,7 +20,7 @@ Um trabalho simples de faculdade referente a um cardápio online de restaurante,
 
 `Funcionalidade 2:` Botão "Adicionar" para acrescentar os produtos no carrinho;
 
-`Funcionalodade 3:` Função "Seu pedido", mostrando o item adicionado e o seu preço;
+`Funcionalidade 3:` Função "Seu pedido", mostrando o item adicionado e o seu preço;
 
 `Funcionalidade 4:` Simulação de um botão "Finalizar Pedido";
 

@@ -25,4 +25,4 @@ Um trabalho simples de faculdade referente a um cardápio online de restaurante,
 ## Layout
 > :warning: Em andamento :warning:
 
-*INSIRIR IMAGEM*
+*INSERIR IMAGEM*

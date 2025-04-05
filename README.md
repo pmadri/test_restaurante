@@ -39,7 +39,7 @@ Um trabalho simples de faculdade referente a um cardápio online de restaurante,
 - `JavaScript`
 
 ## Acesso ao projeto
-*LINK AQUI*
+Você pode acessar o site através do link: https://pmadri.github.io/test_restaurante/
 
 ## Contribuidores
 

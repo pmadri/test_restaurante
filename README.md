@@ -29,7 +29,7 @@ Um trabalho simples de faculdade referente a um cardápio online de restaurante,
 ## Layout
 > :warning: Em andamento :warning:
 
-*INSERIR IMAGEM*
+![alt text](coca510ml.png)
 
 ## Tecnologias utilizadas
 - `HTML`
